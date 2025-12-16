@@ -33,7 +33,7 @@ async function createSuperAdmin() {
   }
 
   if (!SUPER_ADMIN_EMAIL || !SUPER_ADMIN_PASSWORD) {
-    console.error('❌ Missing bootstrap admin credentials!');
+    console.error('❌ Missing bootstrap admin credential!');
     console.error('Please set:');
     console.error('  - SUPER_ADMIN_EMAIL');
     console.error('  - SUPER_ADMIN_PASSWORD (min 12 chars recommended)');
